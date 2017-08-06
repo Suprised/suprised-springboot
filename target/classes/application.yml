@@ -1,0 +1,28 @@
+## 使用yml进行配置,具有层次.
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/suprised
+    username: root
+    password: 123456
+  batch:
+   job:
+     names: 
+
+## 服务端口设置
+server:
+  port: 8081
+  #address: 127.0.0.1
+  sessionTimeout: 30
+  contextPath: /
+
+# Tomcat specifics
+#tomcat:
+#  accessLogEnabled: false
+#  protocolHeader: x-forwarded-proto
+#  remoteIpHeader: x-forwarded-for
+#  basedir:
+#  backgroundProcessorDelay: 30 # secs
+
+get.config.name: 刘金喜
+get.config.password: 123456
